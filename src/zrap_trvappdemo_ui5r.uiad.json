@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Manage Travels",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "rewion.demo.demotravelapp"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_B81EA319B14106381005C0D55B799E1ACD27D970_TM",
+    "semanticObject": "Travel",
+    "action": "Manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_B81EA319B14106381005C0D55B799E1ACD27D970_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Manage Travels",
+        "subtitle": "RAP Fiori Elements Demo App"
+      }
+    }
+  ]
+}

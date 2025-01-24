@@ -1,0 +1,13 @@
+@EndUserText.label: 'Service Definition for Travel Demo App'
+define service ZRAP_UI_TRAV_DEMO {
+  expose ZRAP_C_TRAV_DEMO  as Travel;
+  expose ZRAP_C_BOOK_DEMO  as Booking;
+  expose /DMO/I_Agency     as Agency;
+  expose /DMO/I_Customer   as Customer;
+  expose /DMO/I_Flight     as Flight;
+  expose /DMO/I_Carrier    as Carrier;
+  expose /DMO/I_Connection as Connection;
+  expose /DMO/I_Airport    as Airport;
+  expose I_Currency        as Currency;
+  expose I_Country         as Country;
+}
